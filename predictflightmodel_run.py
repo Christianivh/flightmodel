@@ -1,9 +1,4 @@
-
 # coding: utf-8
-
-# In[24]:
-
-
 def predictflightmodel(p1model, p2_arr_flights, p3_carrier_ct, p4_weather_ct, p5_nas_ct):
     import pandas as pd
     import numpy as np
@@ -23,8 +18,4 @@ def predictflightmodel(p1model, p2_arr_flights, p3_carrier_ct, p4_weather_ct, p5
     return resultado[0]
 
 
-# In[25]:
-
-
-predictflightmodel("OOFSD", 31,1,0,1)
 
